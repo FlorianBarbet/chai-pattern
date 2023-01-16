@@ -1,0 +1,1 @@
+import Structure = Chai.Structure
