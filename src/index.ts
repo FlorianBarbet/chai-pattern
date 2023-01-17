@@ -5,21 +5,18 @@ import { _following } from "@definitions/following";
 import { AssertionError } from "chai";
 
 export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
-        /*TODO : tests and implements properties strict and partial*/
-        _chai.Assertion.addProperty("strictly", () => {
-                utils.flag(this, "source", utils.flag(this,"object"));
-                if(utils.flag(this, "mode") !== "strict"){
-                        throw new AssertionError("You choose 'strict' mode, but mode is already set.");
-                }
-                utils.flag(this, "mode", "strict");
-        });
-        _chai.Assertion.addChainableMethod("partial", () => {
-                utils.flag(this, "source", utils.flag(this,"object"));
-                if(utils.flag(this, "mode") !== "partial"){
-                        throw new AssertionError("You choose 'partial' mode, but mode is already set.");
-                }
-                utils.flag(this, "mode", "partial");
+        /*TODO : tests and implements strict and partial effects*/
+        ['strict', 'partial'].forEach(modeFlag => {
+                _chai.Assertion.addProperty(modeFlag, () => {
+                        utils.flag(this, "source", utils.flag(this,"object"));
+                        const mode = utils.flag(this, "mode");
+                        if(mode && mode !== modeFlag){
+                                throw new AssertionError(`You've just set '${modeFlag}' mode, but mode is already set as '${mode}'.`);
+                        }
+                        utils.flag(this, "mode", modeFlag);
+                });
         })
+
         _chai.Assertion.addChainableMethod("following", pattern => {
                 const source = utils.flag(this, "source");
                 const target = utils.flag(this, "target");

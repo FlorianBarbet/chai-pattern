@@ -8,7 +8,7 @@ declare namespace Chai
     /* - chain: strictly (not with partial)  */
     /* - chain: partial  (not with strictly) */
     /* - */
-    export interface Assertion
+    export interface Assertion extends PatternPerm
     {
         following(pattern: Structure): Assertion
         without(pattern: Structure): Assertion
@@ -16,7 +16,7 @@ declare namespace Chai
     type Primitive = string | number | boolean | object | null | undefined;
     type Structure = {[name: string]: Primitive | Primitive[] | Structure};
     export interface PatternPerm {
-        strictly: Assertion
+        strict: Assertion
         partial: Assertion
     }
 }
