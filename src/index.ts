@@ -1,12 +1,16 @@
 import ChaiStatic = Chai.ChaiStatic;
 import ChaiUtils = Chai.ChaiUtils;
+import Structure = Chai.Structure;
 import { _excluding } from "@definitions/excluding";
 import { _following } from "@definitions/following";
 import { AssertionError } from "chai";
-import Structure = Chai.Structure;
 
 export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
         /*TODO : tests and implements strict and partial effects*/
+        _chai.Assertion.addChainableMethod("compare", (target: Structure) => {
+                utils.flag(this, "target", target);
+        });
+
         ['strictly', 'partially'].forEach(modeFlag => {
                 _chai.Assertion.addProperty(modeFlag, () => {
                         utils.flag(this, "source", utils.flag(this,"object"));
@@ -16,7 +20,7 @@ export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
                         }
                         utils.flag(this, "mode", modeFlag);
                 });
-        })
+        });
 
         _chai.Assertion.addChainableMethod("following", (pattern: Structure) => {
                 const source: Structure = utils.flag(this, "source");
@@ -27,8 +31,5 @@ export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
                 const source: Structure = utils.flag(this, "source");
                 const target: Structure = utils.flag(this, "target");
                 _excluding(source, target, pattern);
-        });
-        _chai.Assertion.addChainableMethod("compare", (target: Structure) => {
-                utils.flag(this, "target", target);
         });
 };

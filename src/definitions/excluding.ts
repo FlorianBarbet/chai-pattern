@@ -1,15 +1,5 @@
+import { _morph } from "@definitions/pattern-morphism";
+
 export function _excluding(source: Structure, target: Structure, jsonPattern: Structure) {
-    const patternKeys = Object.keys(jsonPattern);
-    const sumOfKeys = new Set([...Object.keys(source), ...Object.keys(target)]);
-    sumOfKeys.forEach(key => {
-        if(patternKeys.includes(key)){
-            delete source[key];
-            delete target[key];
-            return;
-        }
-        const value = jsonPattern[key];
-        if((typeof value).match("^(object|function)$")) {
-            _excluding(source[key] as Structure, target[key] as Structure, jsonPattern[key] as Structure);
-        }
-    });
+    _morph(source, target, jsonPattern, (patternKeys, key) => patternKeys.includes(key));
 }
