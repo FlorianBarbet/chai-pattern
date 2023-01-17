@@ -1,12 +1,13 @@
 import ChaiStatic = Chai.ChaiStatic;
 import ChaiUtils = Chai.ChaiUtils;
-import { _without } from "@definitions/without";
+import { _excluding } from "@definitions/excluding";
 import { _following } from "@definitions/following";
 import { AssertionError } from "chai";
+import Structure = Chai.Structure;
 
 export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
         /*TODO : tests and implements strict and partial effects*/
-        ['strict', 'partial'].forEach(modeFlag => {
+        ['strictly', 'partially'].forEach(modeFlag => {
                 _chai.Assertion.addProperty(modeFlag, () => {
                         utils.flag(this, "source", utils.flag(this,"object"));
                         const mode = utils.flag(this, "mode");
@@ -17,14 +18,17 @@ export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
                 });
         })
 
-        _chai.Assertion.addChainableMethod("following", pattern => {
-                const source = utils.flag(this, "source");
-                const target = utils.flag(this, "target");
+        _chai.Assertion.addChainableMethod("following", (pattern: Structure) => {
+                const source: Structure = utils.flag(this, "source");
+                const target: Structure = utils.flag(this, "target");
                 _following(source, target, pattern);
         });
-        _chai.Assertion.addChainableMethod("without", pattern => {
-                const source = utils.flag(this, "source");
-                const target = utils.flag(this, "target");
-                _without(source, target, pattern);
+        _chai.Assertion.addChainableMethod("excluding", (pattern: Structure) => {
+                const source: Structure = utils.flag(this, "source");
+                const target: Structure = utils.flag(this, "target");
+                _excluding(source, target, pattern);
+        });
+        _chai.Assertion.addChainableMethod("compare", (target: Structure) => {
+                utils.flag(this, "target", target);
         });
 };

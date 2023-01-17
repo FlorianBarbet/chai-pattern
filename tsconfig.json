@@ -33,5 +33,5 @@
     "node_modules",
     "dist"
   ],
-  "files": ["./types/chai-pattern/*"]
+  "files": ["./types/chai-pattern/index.d.ts"]
 }

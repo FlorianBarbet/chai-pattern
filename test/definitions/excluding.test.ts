@@ -1,13 +1,13 @@
 import { expect } from "chai";
-import { _without } from "@definitions/without";
+import { _excluding } from "@definitions/excluding";
 
-describe("WithoutPattern", () => {
+describe("ExcludingPattern", () => {
     it("should remove keys that  'pattern' field", () => {
         const source = {p1: "", p2: "", p3: ""};
         const target = {p1:"", p3:"", p4: ""};
         const pattern = {p1:"", p3:""};
 
-        _without(source, target, pattern);
+        _excluding(source, target, pattern);
 
         expect(source).not.to.have.property("p1");
         expect(source).not.to.have.property("p3");
