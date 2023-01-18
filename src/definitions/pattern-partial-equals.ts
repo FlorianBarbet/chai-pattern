@@ -24,10 +24,8 @@ function _partialEquals(source: Structure, target: Structure, jsonPattern: Struc
                         i = sourceValue.length; // quick leave
                         return;
                     }
-                    const sourceValueIteration = sourceValue[i];
-                    const targetValueIteration = targetValue[i];
                     if ( (typeof sourceValue[i]).match("^(object|function)$") ) {
-                        hasFalse = _partialEquals(sourceValueIteration as Structure, targetValueIteration as Structure, (type as Structure[])[0])
+                        hasFalse = !_partialEquals(sourceValue[i] as Structure, targetValue[i] as Structure, (type as Structure[])[0])
                         return;
                     }
                     hasFalse = _arrayChecker(sourceValue, targetValue, i);

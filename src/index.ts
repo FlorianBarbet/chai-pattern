@@ -11,9 +11,11 @@ _methodRegistry["_following"] = _following;
 _methodRegistry["_excluding"] = _excluding;
 type PatternEqualitySig = (s: Structure, t: Structure, p: Structure, o?: boolean) => boolean;
 const _modeRegistry:{[methodName: string]: PatternEqualitySig} = {};
-/*TODO tests equals mode and add a way to indicate if ordering in array is desired*/
 _methodRegistry["strictly"] = _strictEquals;
 _methodRegistry["partially"] = _partialEquals;
+
+/*TODO tests equals mode and add a way to indicate if ordering in array is desired*/
+
 export const pattern = (_chai: ChaiStatic, utils: ChaiUtils): void => {
        /* Assert ! */
         _chai.Assertion.addMethod("compare", (_target: Structure) => {

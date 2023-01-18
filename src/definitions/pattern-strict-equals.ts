@@ -21,10 +21,9 @@ function _strictEquals(source: Structure, target: Structure, jsonPattern: Struct
                         i = sourceValue.length; // quick leave
                         return;
                     }
-                    const sourceValueIteration = sourceValue[i];
-                    const targetValueIteration = targetValue[i];
+
                     if ( (typeof sourceValue[i]).match("^(object|function)$") ) {
-                        hasFalse = _strictEquals(sourceValueIteration as Structure, targetValueIteration as Structure, arrayType as Structure)
+                        hasFalse = !_strictEquals(sourceValue[i] as Structure, targetValue[i] as Structure, arrayType as Structure)
                         return;
                     }
                     hasFalse = _arrayChecker(sourceValue, targetValue, arrayType as string, i);

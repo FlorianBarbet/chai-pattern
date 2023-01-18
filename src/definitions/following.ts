@@ -1,5 +1,4 @@
 export function _following(source: Structure , target: Structure, jsonPattern: Structure) {
-
     const patternKeys = Object.keys(jsonPattern);
     const sumOfKeys = new Set([...Object.keys(source), ...Object.keys(target)]);
     sumOfKeys.forEach(key => {
