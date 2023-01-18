@@ -1,9 +1,9 @@
-export function _following(source: Structure , target: Structure, jsonPattern: Structure | string) {
+export function _following(source: Structure , target: Structure, jsonPattern: Structure) {
 
     const patternKeys = Object.keys(jsonPattern);
     const sumOfKeys = new Set([...Object.keys(source), ...Object.keys(target)]);
     sumOfKeys.forEach(key => {
-        const value = typeof jsonPattern === 'string' ? JSON.parse(jsonPattern)[key] : jsonPattern[key];
+        const value = jsonPattern[key];
 
         if(!patternKeys.includes(key)){
             delete source[key];

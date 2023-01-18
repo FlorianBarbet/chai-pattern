@@ -1,8 +1,8 @@
-export function _excluding(source: Structure, target: Structure, jsonPattern: Structure | string) {
+export function _excluding(source: Structure, target: Structure, jsonPattern: Structure) {
     const patternKeys = Object.keys(jsonPattern);
     const sumOfKeys = new Set([...Object.keys(source), ...Object.keys(target)]);
     sumOfKeys.forEach(key => {
-        const value = typeof jsonPattern === 'string' ? JSON.parse(jsonPattern)[key] : jsonPattern[key];
+        const value = jsonPattern[key];
         const isObject = (typeof value).match("^(object|function)$");
 
         if(patternKeys.includes(key) && !isObject){
