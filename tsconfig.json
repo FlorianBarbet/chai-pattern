@@ -17,13 +17,14 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
+    "esModuleInterop": true,
     "lib": ["es2020", "dom"],
     "typeRoots": [
       "./node_modules/@types",
       "./types"
     ],
     "paths": {
-      "@definitions/*": ["./src/definitions/*"],
+      "@definitions/*": ["./src/definitions/*"]
     }
   },
   "include": [

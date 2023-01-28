@@ -1,0 +1,227 @@
+{
+  "firstCase": {
+    "_id": "63d15fb29fe139e096d2c540",
+    "index": 0,
+    "guid": "40d30ba0-b2ca-4f84-91cf-b8ef06b8cb54",
+    "isActive": false,
+    "balance": "$2,376.43",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Rush Mclaughlin",
+    "gender": "male",
+    "company": "SQUISH",
+    "email": "rushmclaughlin@squish.com",
+    "phone": "+1 (992) 579-3851",
+    "address": "863 Mill Avenue, Odessa, Missouri, 4819",
+    "about": "Exercitation anim magna ad excepteur dolore aliquip incididunt occaecat excepteur deserunt labore magna. Consectetur ea voluptate ut qui duis quis labore id. Reprehenderit anim magna elit reprehenderit pariatur mollit ut veniam adipisicing. Quis labore tempor esse sit nisi sint mollit incididunt. Velit cupidatat non incididunt eiusmod excepteur aliquip minim officia quis tempor irure elit.\r\n",
+    "registered": "2018-07-26T11:17:08 -02:00",
+    "latitude": 40.603235,
+    "longitude": 157.069467,
+    "tags": [
+      "qui",
+      "mollit",
+      "consectetur",
+      "nostrud",
+      "elit",
+      "ad",
+      "dolor"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Amelia Hopkins"
+      },
+      {
+        "id": 1,
+        "name": "Macias Vargas"
+      },
+      {
+        "id": 2,
+        "name": "Vang Jenkins"
+      }
+    ],
+    "greeting": "Hello, Rush Mclaughlin! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  "secondCase": {
+    "_id": "63d15fb216d5a4191c9d1329",
+    "index": 1,
+    "guid": "dfef1cd5-78a7-4830-888c-bced2aa86102",
+    "isActive": false,
+    "balance": "$3,747.94",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Judy Estes",
+    "gender": "female",
+    "company": "COMTEST",
+    "email": "judyestes@comtest.com",
+    "phone": "+1 (807) 435-3690",
+    "address": "552 Rugby Road, Torboy, Massachusetts, 5409",
+    "about": "Id laboris laboris ex ad ipsum voluptate do officia consectetur. Id quis laboris est veniam dolor Lorem pariatur proident non. Est esse deserunt ex non magna reprehenderit. Nulla excepteur commodo sit non magna fugiat in nisi. Dolor incididunt dolore labore ullamco velit eiusmod laboris esse in tempor velit. Sit esse aute nulla ex eiusmod est. In esse irure cillum pariatur nisi aute do dolor.\r\n",
+    "registered": "2016-02-12T03:32:14 -01:00",
+    "latitude": -87.3188,
+    "longitude": -60.524051,
+    "tags": [
+      "eiusmod",
+      "elit",
+      "ad",
+      "reprehenderit",
+      "voluptate",
+      "aliqua",
+      "officia"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ora Fowler"
+      },
+      {
+        "id": 1,
+        "name": "Roy Kane"
+      },
+      {
+        "id": 2,
+        "name": "Rice Hunt"
+      }
+    ],
+    "greeting": "Hello, Judy Estes! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  "thirdCase": {
+    "_id": "63d15fb2037f189c9a06e90c",
+    "index": 2,
+    "guid": "162352f0-6d43-4770-928a-49a2117852b1",
+    "isActive": true,
+    "balance": "$1,230.76",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Chambers Hansen",
+    "gender": "male",
+    "company": "PROFLEX",
+    "email": "chambershansen@proflex.com",
+    "phone": "+1 (992) 529-2350",
+    "address": "908 Roosevelt Court, Wacissa, American Samoa, 952",
+    "about": "Sunt adipisicing laboris tempor reprehenderit in amet sint tempor. Ullamco deserunt enim culpa adipisicing anim. Sunt commodo voluptate nulla dolore nostrud culpa deserunt ipsum cillum culpa consequat pariatur nostrud. Ea cillum velit proident cillum. Id laboris consectetur consequat eiusmod minim enim esse sit pariatur laborum id. Est culpa quis enim est. Lorem qui cupidatat ipsum excepteur et id.\r\n",
+    "registered": "2015-01-09T02:33:08 -01:00",
+    "latitude": 2.085704,
+    "longitude": -11.27305,
+    "tags": [
+      "proident",
+      "in",
+      "incididunt",
+      "et",
+      "in",
+      "aliqua",
+      "laborum"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Chase Love"
+      },
+      {
+        "id": 1,
+        "name": "Yang Petty"
+      },
+      {
+        "id": 2,
+        "name": "Debra William"
+      }
+    ],
+    "greeting": "Hello, Chambers Hansen! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  "fourthCase": {
+    "_id": "63d15fb2edca17ad1ca76742",
+    "index": 3,
+    "guid": "959a41e1-f9df-48a4-a121-5e0757b81776",
+    "isActive": false,
+    "balance": "$2,221.50",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Maricela Washington",
+    "gender": "female",
+    "company": "TECHMANIA",
+    "email": "maricelawashington@techmania.com",
+    "phone": "+1 (832) 440-2437",
+    "address": "858 Jay Street, Enetai, Guam, 6930",
+    "about": "Ex ut esse veniam amet amet voluptate reprehenderit deserunt. Fugiat laborum reprehenderit ut mollit eiusmod magna sunt aliquip irure esse adipisicing ea nisi fugiat. Sint tempor mollit sit anim adipisicing do qui officia. Eu do sit consequat est aute do laborum nostrud ex. Occaecat tempor cupidatat deserunt deserunt id. Commodo cillum minim laboris magna cupidatat qui enim adipisicing sint anim tempor.\r\n",
+    "registered": "2019-03-06T05:12:42 -01:00",
+    "latitude": 17.937324,
+    "longitude": 177.283372,
+    "tags": [
+      "dolor",
+      "sit",
+      "amet",
+      "ea",
+      "aliquip",
+      "aliqua",
+      "eiusmod"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Richard Harmon"
+      },
+      {
+        "id": 1,
+        "name": "Wallace Medina"
+      },
+      {
+        "id": 2,
+        "name": "Michael Snider"
+      }
+    ],
+    "greeting": "Hello, Maricela Washington! You have 1 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  "fifthCase": {
+    "_id": "63d15fb24e069b69f0e9a593",
+    "index": 4,
+    "guid": "2e257bdc-0d1f-4be4-9d08-46391166bead",
+    "isActive": true,
+    "balance": "$3,349.18",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "blue",
+    "name": "Shields Hughes",
+    "gender": "male",
+    "company": "LIQUIDOC",
+    "email": "shieldshughes@liquidoc.com",
+    "phone": "+1 (931) 470-3564",
+    "address": "322 Lake Street, Mahtowa, Maine, 3056",
+    "about": "Velit sunt esse mollit incididunt nisi labore aliquip. Nostrud labore excepteur duis culpa laborum ipsum minim dolor exercitation elit. Elit ea proident ex duis veniam magna nisi Lorem ut sit enim pariatur id officia. Nisi occaecat elit pariatur commodo aliquip occaecat. Ad Lorem esse exercitation aliqua do incididunt est et commodo commodo dolor cupidatat Lorem labore. Id sit aute enim ex commodo ad quis voluptate pariatur voluptate. Quis pariatur tempor sunt dolore pariatur irure irure adipisicing.\r\n",
+    "registered": "2015-12-09T07:40:41 -01:00",
+    "latitude": -9.099099,
+    "longitude": -22.962321,
+    "tags": [
+      "laborum",
+      "excepteur",
+      "labore",
+      "cillum",
+      "ullamco",
+      "nostrud",
+      "duis"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Dominique Alford"
+      },
+      {
+        "id": 1,
+        "name": "Peck Kirkland"
+      },
+      {
+        "id": 2,
+        "name": "Wright Jacobs"
+      }
+    ],
+    "greeting": "Hello, Shields Hughes! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+}

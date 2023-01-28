@@ -1,9 +1,11 @@
-function _strictEquals(source: Structure, target: Structure, jsonPattern: Structure, ordered = true ): boolean{
+export function _strictEquals(source: Structure, target: Structure, jsonPattern: Structure, ordered = true ): boolean{
     let hasFalse = false;
     Object.entries(jsonPattern).forEach(([key, type]) => {
-        const sourceValue = source[key];
-        const targetValue = target[key];
-        if ( hasFalse || !sourceValue || !targetValue ) return;
+        const sourceValue = source[key] ?? null;
+        const targetValue = target[key] ?? null;
+        if ( hasFalse || sourceValue === null || targetValue === null ) {
+            return;
+        }
         if (Array.isArray(sourceValue) !== Array.isArray(targetValue)) {
             hasFalse = true;
             return;
@@ -35,9 +37,9 @@ function _strictEquals(source: Structure, target: Structure, jsonPattern: Struct
            hasFalse = !_strictEquals(sourceValue as Structure, targetValue as Structure, type as Structure);
            return;
         }
+
         hasFalse = sourceValue !== targetValue || typeof sourceValue !== type || typeof targetValue !== type;
     });
-
 
     return !hasFalse;
 }

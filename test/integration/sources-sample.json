@@ -1,0 +1,235 @@
+{
+  "firstCase": {
+    "_id": "63d15f806d35eabb6171f5fa",
+    "index": 0,
+    "guid": "19413c35-2554-48c6-8b4b-5558dcab19b1",
+    "isActive": false,
+    "balance": "$3,578.41",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "brown",
+    "name": "Harding Joyce",
+    "gender": "male",
+    "company": "YOGASM",
+    "email": "hardingjoyce@yogasm.com",
+    "phone": "+1 (937) 536-2204",
+    "address": "261 Opal Court, Chicopee, New Mexico, 8207",
+    "about": "Amet esse commodo labore excepteur cupidatat quis laborum cillum incididunt minim in. Ex esse anim enim labore ullamco ipsum ex. Non eu laboris enim do aliqua quis cupidatat eu officia. Consequat amet laboris exercitation reprehenderit eiusmod aliqua ipsum nostrud adipisicing. Ut id culpa nisi officia non excepteur aute eiusmod pariatur eu eiusmod cillum qui nisi.\r\n",
+    "registered": "2022-02-20T09:27:00 -01:00",
+    "latitude": -24.183891,
+    "longitude": 40.374461,
+    "tags": [
+      "nulla",
+      "velit",
+      "adipisicing",
+      "id",
+      "id",
+      "aliqua",
+      "incididunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Castaneda Allen"
+      },
+      {
+        "id": 1,
+        "name": "Miles Henderson"
+      },
+      {
+        "id": 2,
+        "name": "Lindsey Davis"
+      }
+    ],
+    "greeting": "Hello, Harding Joyce! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  "secondCase": {
+    "_id": "63d15f8022c4bbd59b5d9d57",
+    "index": 1,
+    "guid": "04f0d1ed-560b-488c-ad41-5fc0874c17b2",
+    "isActive": true,
+    "balance": "$3,334.58",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": "Matthews Berg",
+    "gender": "male",
+    "company": "VIASIA",
+    "email": "matthewsberg@viasia.com",
+    "phone": "+1 (981) 531-3489",
+    "address": "826 Ryerson Street, Franklin, Wyoming, 2624",
+    "about": "Do ad ipsum fugiat veniam occaecat aliquip id. Deserunt mollit reprehenderit laboris esse occaecat. Pariatur commodo enim incididunt ullamco sit. Eu irure reprehenderit pariatur cillum laboris minim ipsum sit sint sint. Cillum exercitation reprehenderit reprehenderit dolor amet est eiusmod esse sint. Consectetur esse duis consequat ut reprehenderit aliqua officia occaecat sit est elit nisi ea. Anim tempor sit nulla enim anim aute Lorem.\r\n",
+    "registered": "2021-01-15T12:19:19 -01:00",
+    "latitude": 39.745357,
+    "longitude": 129.180664,
+    "tags": [
+      "ipsum",
+      "commodo",
+      "et",
+      "sit",
+      "exercitation",
+      "occaecat",
+      "nulla"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sampson Mcpherson"
+      },
+      {
+        "id": 1,
+        "name": "Acosta Byers"
+      },
+      {
+        "id": 2,
+        "name": "Nelson Gross"
+      }
+    ],
+    "greeting": "Hello, Matthews Berg! You have 1 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  "thirdCase": {
+    "_id": "63d15f8093e8b28175d8cbe2",
+    "index": 2,
+    "guid": "0a1d55f2-8aaa-4d88-9bb1-0d7ccb874042",
+    "isActive": true,
+    "balance": "$3,167.12",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Meredith Green",
+    "gender": "female",
+    "company": "ZENSURE",
+    "email": "meredithgreen@zensure.com",
+    "phone": "+1 (964) 539-3415",
+    "address": "331 Taylor Street, Bartley, Illinois, 2402",
+    "about": "Amet excepteur fugiat eiusmod tempor. Laborum aliquip ad est minim laboris. Nostrud deserunt exercitation ea quis mollit deserunt laboris Lorem nisi.\r\n",
+    "registered": "2015-03-28T08:53:30 -01:00",
+    "latitude": 75.129093,
+    "longitude": -20.906222,
+    "tags": [
+      "ea",
+      "pariatur",
+      "proident",
+      "pariatur",
+      "duis",
+      "enim",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Corrine Hood"
+      },
+      {
+        "id": 1,
+        "name": "Coleman Harmon"
+      },
+      {
+        "id": 2,
+        "name": "Sandy Farrell"
+      }
+    ],
+    "greeting": "Hello, Meredith Green! You have 1 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  "fourthCase": {
+    "_id": "63d15f80f40ed27499868d35",
+    "index": 3,
+    "guid": "2753b4fe-3fc3-4a3c-bf10-5f04b2e5e88e",
+    "isActive": true,
+    "balance": "$3,194.95",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "brown",
+    "name": "Duke Simon",
+    "gender": "male",
+    "company": "VIRVA",
+    "email": "dukesimon@virva.com",
+    "phone": "+1 (841) 549-2113",
+    "address": "957 Harrison Avenue, Accoville, Guam, 2639",
+    "about": "Dolor sit eu esse non labore excepteur mollit. Dolore officia reprehenderit eiusmod quis mollit et. Ullamco anim ipsum do enim officia do dolor minim tempor irure ad nostrud culpa. Nostrud commodo do ea consectetur pariatur ipsum. Culpa adipisicing occaecat sunt ipsum anim mollit sit voluptate nisi ea sit velit qui ut. Minim in culpa in cillum deserunt. Qui sit et mollit non aliquip.\r\n",
+    "registered": "2018-04-16T11:22:36 -02:00",
+    "latitude": -38.609257,
+    "longitude": 23.128136,
+    "tags": [
+      "nostrud",
+      "occaecat",
+      "nulla",
+      "veniam",
+      "dolor",
+      "enim",
+      "nisi"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Clarice Ayala"
+      },
+      {
+        "id": 1,
+        "name": "Johnnie Mueller"
+      },
+      {
+        "id": 2,
+        "name": "Leann Sexton"
+      }
+    ],
+    "greeting": "Hello, Duke Simon! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  "fifthCase": {
+    "_id": "63d15f80c77bf842281062d2",
+    "index": 4,
+    "guid": "632ca801-248d-429b-a515-281769494d16",
+    "isActive": false,
+    "balance": "$1,830.95",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "Hobbs Vaughan",
+    "gender": "male",
+    "company": "QUADEEBO",
+    "email": "hobbsvaughan@quadeebo.com",
+    "phone": "+1 (821) 530-3543",
+    "address": "306 Micieli Place, Yettem, North Carolina, 6321",
+    "about": "Velit proident est incididunt consequat. Et id fugiat mollit voluptate nisi. Amet labore quis consectetur anim esse deserunt eu proident.\r\n",
+    "registered": "2015-07-02T06:26:32 -02:00",
+    "latitude": 56.786832,
+    "longitude": -21.031552,
+    "tags": [
+      "est",
+      "elit",
+      "nostrud",
+      "nulla",
+      "velit",
+      "non",
+      "enim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ora Fowler"
+      },
+      {
+        "id": 1,
+        "name": "Roy Kane"
+      },
+      {
+        "id": 2,
+        "name": "Graham Tyson"
+      },
+      {
+        "id": 3,
+        "name": "Enid Parsons"
+      },
+      {
+        "id": 4,
+        "name": "Frankie Weaver"
+      }
+    ],
+    "greeting": "Hello, Hobbs Vaughan! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+}

@@ -2,12 +2,12 @@
 * Partial equals doesn't check types
 * You can choose to check array's ordering.
 * */
-function _partialEquals(source: Structure, target: Structure, jsonPattern: Structure, ordered = false){
+export function _partialEquals(source: Structure, target: Structure, jsonPattern: Structure, ordered = false){
     let hasFalse = false;
     Object.entries(jsonPattern).forEach(([key, type]) => {
-        const sourceValue = source[key];
-        const targetValue = target[key];
-        if ( hasFalse || !sourceValue || !targetValue ) return;
+        const sourceValue = source[key] ?? null;
+        const targetValue = target[key] ?? null;
+        if ( hasFalse || sourceValue === null || targetValue === null ) return;
         if (Array.isArray(sourceValue) !== Array.isArray(targetValue)) {
             hasFalse = true;
             return;
