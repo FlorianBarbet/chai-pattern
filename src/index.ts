@@ -7,7 +7,6 @@ import { _strictEquals } from "@definitions/pattern-strict-equals";
 import { _partialEquals } from "@definitions/pattern-partial-equals";
 
 import { AssertionError } from "chai";
-        /*Side project : pain au poulet*/
 type PatternMorphSig = (s: Structure, t: Structure, p: Structure) => void;
 const _morphRegistry: {[methodName: string]: PatternMorphSig} = {};
 _morphRegistry["_following"] = _following;
